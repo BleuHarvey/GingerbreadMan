@@ -54,7 +54,7 @@
             android:hint="Plural Noun" />
 
         <EditText
-            android:id="@+id/editTextText4"
+            android:id="@+id/et_verb"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -62,7 +62,7 @@
             android:hint="Verb" />
 
         <EditText
-            android:id="@+id/editTextText5"
+            android:id="@+id/et_adverb"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -70,7 +70,7 @@
             android:hint="Adverb" />
 
         <EditText
-            android:id="@+id/editTextText6"
+            android:id="@+id/et_adjective"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -78,7 +78,7 @@
             android:hint="Adjective" />
 
         <EditText
-            android:id="@+id/editTextText7"
+            android:id="@+id/et_color"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -86,7 +86,7 @@
             android:hint="Color" />
 
         <EditText
-            android:id="@+id/editTextText8"
+            android:id="@+id/et_celebrity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -94,7 +94,7 @@
             android:hint="Celebrity" />
 
         <EditText
-            android:id="@+id/editTextText9"
+            android:id="@+id/et_animal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -102,7 +102,7 @@
             android:hint="Animal" />
 
         <EditText
-            android:id="@+id/editTextText10"
+            android:id="@+id/et_food"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -110,7 +110,7 @@
             android:hint="Food" />
 
         <EditText
-            android:id="@+id/editTextText11"
+            android:id="@+id/et_body_part"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
