@@ -2,7 +2,9 @@ package com.example.gingerbreadman;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.TextView;
 
 public class MainActivity2 extends AppCompatActivity {
 
@@ -19,8 +21,8 @@ public class MainActivity2 extends AppCompatActivity {
 
         Intent intent = getIntent();
 
-        String recieve1 = intent.getStringExtra(name:"data1");
-        String recieve2 = intent.getStringExtra(name:"data2");
+        String recieve1 = intent.getStringExtra("data1");
+        String recieve2 = intent.getStringExtra("data2");
 
         tvTopText.setText(recieve1);
         tvBottomText.setText(recieve2);

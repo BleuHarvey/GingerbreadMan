@@ -53,19 +53,27 @@ public class MainActivity extends AppCompatActivity {
         mainActivity2.putExtra("data1", sendThisString);
         mainActivity2.putExtra("data2", sendThisToo);
 
-        btnNextPage.setOnClickListener(new View.OnClickListener()) {
+        btnNextPage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
 
                 String story = "";
-                story += "\nThe gingerbread man has a " + etNoun.getText();
-                story += "\n";
+                story += "\nOn the planet Pandora " + etCelebrity.getText() + " looked at the small " + etAnimal.getText() + " in her hands and felt sad.";
+                story += "\nShe walked over to the " + etNoun.getText() + " and " + etVerb.getText() + " on her " + etAdjective.getText() + " surroundings. She had always loved " + etAdjective.getText() + " Pandora with its tricky, talented trees. It was a place that encouraged her tendency to feel sad.";
+                story += "\nThen she saw something in the distance, or rather someone. It was the figure of Jake Sully. Jake was a killer earthling with " + etAdverb.getText() + " fingernails and lean " + etBodyPart.getText() + ".";
+                story += "\n "+ etCelebrity.getText() + " gulped. She glanced at her own reflection. She was a " + etColor.getText() + " princess, " + etFood.getText() + " eater with blue fingernails and tall toenail. Her friends saw her as a pretty, prickly princess. Once, she had even saved a strange necklace that was stuck in a drain.";
+                story += "\nBut not even a blue person who had once saved a strange necklace that was stuck in a drain, was prepared for what Jake had in store today.The rain hammered like retaliate " + etAnimal.getText() + ", making "+ etCelebrity.getText() + " vengeful.";
+                story += "\nAs "+ etCelebrity.getText() + " stepped outside and Jake came closer, she could see the loose " + etVerb.getText() + " in his eye. I am here because I want a hug,  Jake bellowed, in a tahkail tone. He slammed his fist against "+ etCelebrity.getText() + " chest, with the force of 676 Toruk Macto’s. I friggin love you, "+ etCelebrity.getText() + ".";
+                story += "\n"+ etCelebrity.getText() + " looked back, even more vengeful and still fingering the small Banshee. Jake, you're like a child, she replied. They looked at each other with happy feelings, like two tough, thoughtless Tulkun avenging a very archer doomsday, which had cello music playing in the background and two tall "+ etPluralNoun.getText() + " saving to the beat.";
+                story += "\n"+ etCelebrity.getText() + " regarded Jake's fast " + etAnimal.getText() + " and lean " + etAnimal.getText() +". She held out her hand. Let's not fight, she whispered, gently.Hmph, pondered Jake. Please? begged "+ etCelebrity.getText() + " with " + etAnimal.getText() + " eyes.";
+                story += "\nJake looked surprised, his body blushing like an ugliest, unnatural Unobtanium. Then Jake came inside for a nice drink of water.";
+                story += "\nTHE END";
 
 
                 mainActivity2.putExtra("story",story);
                 startActivity(mainActivity2);
             }
-        }
+        });
     }
 }
