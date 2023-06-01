@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/pandora_bg1"
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.Guideline
@@ -30,19 +31,12 @@
         app:layout_constraintTop_toTopOf="@+id/guideline4">
 
         <EditText
-            android:id="@+id/editTextText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="text"
-            android:hint="Weird Pandora" />
-
-        <EditText
             android:id="@+id/et_noun"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
+            android:textColorHint="@color/pandora_hint_txt"
             android:hint="Noun" />
 
         <EditText
@@ -51,6 +45,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
+            android:textColorHint="@color/pandora_hint_txt"
             android:hint="Plural Noun" />
 
         <EditText
@@ -59,6 +54,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
+            android:textColorHint="@color/pandora_hint_txt"
             android:hint="Verb" />
 
         <EditText
@@ -67,6 +63,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
+            android:textColorHint="@color/pandora_hint_txt"
             android:hint="Adverb" />
 
         <EditText
@@ -75,6 +72,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
+            android:textColorHint="@color/pandora_hint_txt"
             android:hint="Adjective" />
 
         <EditText
@@ -83,6 +81,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
+            android:textColorHint="@color/pandora_hint_txt"
             android:hint="Color" />
 
         <EditText
@@ -91,6 +90,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
+            android:textColorHint="@color/pandora_hint_txt"
             android:hint="Celebrity" />
 
         <EditText
@@ -99,6 +99,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
+            android:textColorHint="@color/pandora_hint_txt"
             android:hint="Animal" />
 
         <EditText
@@ -107,6 +108,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
+            android:textColorHint="@color/pandora_hint_txt"
             android:hint="Food" />
 
         <EditText
@@ -115,12 +117,15 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
+            android:textColorHint="@color/pandora_hint_txt"
             android:hint="Body Part" />
 
         <Button
             android:id="@+id/btn_nextpage"
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:textColor="@color/pandora_btn_txt"
+            android:backgroundTint="@color/pandora_btn_bg"
             android:text="Create" />
     </LinearLayout>
 
@@ -129,15 +134,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="61dp" />
+        app:layout_constraintGuide_percent="0.08344733" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="MadLib"
+        android:text="Weird Pandora"
         android:textAlignment="center"
         android:textSize="36sp"
+        android:textColor="@color/pandora_title1"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
         tools:layout_editor_absoluteY="15dp" />

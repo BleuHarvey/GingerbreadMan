@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+      <color name="black">#EAE4E4</color>
+    <color name="white">#0FEDC1</color>
+    <color name="pandora_bg1">#050505</color>
+    <color name="pandora_title1">#04EDE5</color>
+    <color name="pandora_hint_txt">#03F6E3</color>
+    <color name="pandora_btn_txt">#000000</color>
+    <color name="pandora_btn_bg">#00BCD4</color>
+    <color name="pandora_bg2">#000000</color>
+    <color name="pandora_title2">#11B3B3</color>
+    <color name="pandora_story_txt">#07F5D9</color>
 </resources>

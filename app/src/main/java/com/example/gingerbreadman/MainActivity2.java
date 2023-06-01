@@ -9,24 +9,20 @@ import android.widget.TextView;
 
 public class MainActivity2 extends AppCompatActivity {
 
-    TextView tvTopText;
-    TextView tvBottomText;
+    private TextView tvStory;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-        tvTopText = findViewById(R.id.tv_top);
-        tvBottomText = findViewById(R.id.tv_bottom);
+        tvStory = findViewById(R.id.tv_story);
 
         Intent intent = getIntent();
 
-        String recieve1 = intent.getStringExtra("data1");
-        String recieve2 = intent.getStringExtra("data2");
+        String story = intent.getStringExtra("story");
 
-        tvTopText.setText(recieve1);
-        tvBottomText.setText(recieve2);
+        tvStory.setText(story);
 
     }
 }
